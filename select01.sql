@@ -71,7 +71,7 @@ select '문자확인'AS"문자컬럼별첨",
 from dual;
 
 select dname, loc, '문자안녕',12345 from dept;
-select '문자' '작은따옴표' from dual;
+select '문자''작은따옴표' from dual;
 select q'[이 안에다가 문자를'작은"큰 이렇게]' from dual;
 --q'[문자작성]'
 
