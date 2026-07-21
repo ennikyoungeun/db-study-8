@@ -3,7 +3,7 @@
 
 NVL함수
 값이null 일때 기본값 처리
-NVR(대상,null일때 기본값)
+NVL(대상,null일때 기본값)
 
 select
     sal,
@@ -32,13 +32,8 @@ where comm is null;
 NVL2함수
 NVL2(대상값,있을,없을)
 
-select
-NVL(null,10),
-NVL(20,10),
-NVL2(null,'있다,','없다'),
-NVL2(1234,'있다,','없다')
-,NVL2(1234,'1234','없다')
-from dual;
+
+
 
 select
     sal,
